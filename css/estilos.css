@@ -1,0 +1,127 @@
+@font-face{
+
+	font-family: navidad;
+	src: url(font/navidadText.otf);
+
+	font-family: navidad;
+	src: url(font/HomeChristmas.otf);
+}
+.bg-gris{
+	background-color: #ededed;
+}
+.bg-confeti{
+	background-image: url(../img/confetti3.gif);
+	background-size:100% ;
+	background-repeat: no-repeat;
+}
+
+.rs{
+	background-color: green;
+	border-radius: 5px;
+	padding: 7px 5px 0 5px;
+	color: rgba(255, 255, 255, 0.6);
+}
+/*Fin de las clases re-utilizables*/
+.nav{
+	background-color: white;
+	padding: 40px 10px 10px 10px;
+}
+
+.etiqueta-participantes{
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	padding-left:10px ;
+}
+
+.etiqueta-participantes span{
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	border-radius: 0 5px 5px 0;
+	margin: 0;
+	display: inline-block;
+	border-left: 5px solid rgba(0, 0, 0, 0.1);
+}
+header{
+	 background:  linear-gradient(-80deg, rgba(139,4,4,1) 0%, rgba(218,1,1,1) 100%);
+	padding: 50px;
+	font-family: navidad;
+	text-align: center;
+	color: white;
+}
+
+
+.cajaForm{
+	background-color: white;
+	padding: 10px;
+	width: 400px;
+	left: 35%;
+	top:100%;
+	font-family: arial;
+	border-radius: 10px;
+	box-shadow: 0 0 13px green;
+	z-index: 2;
+	transition: 1s ease box-shadow;
+
+}
+.cajaForm:hover{
+	transition: 1s ease box-shadow;
+	box-shadow:0 0 50px green;
+}
+
+.cajaForm button{
+	border-left: none;
+	background-color: green;
+	color: white;
+	border-radius: 0px 4px 4px 0px;
+	padding: 15px;
+	border-bottom:5px solid #004D00;
+}
+
+
+
+.cajaForm input{
+	border-right: none;
+	padding: 15px;
+}
+
+.cajaForm input:focus{
+	border: 1px solid #ced4da;
+	border-right:none;
+	outline: none !important;
+	box-shadow: none;
+}
+
+.cajaForm small{
+	color: gray;
+	font-weight: bold;
+}
+
+.cajaSeparador{
+		background-color:#ededed;
+		height: 100px;
+}	
+
+
+.cj-contador{
+	background-color: green;
+	width: 50%;
+	border-radius: 5px 5px 0 0;
+}
+.contador-header{
+	padding: 20px;
+	font-size: 80px;
+	color: white;
+} 
+.contador-footer{
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+
+footer{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10PX;
+}
